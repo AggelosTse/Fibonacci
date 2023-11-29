@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "fib.hpp"
-
+ 
 using std::cin,std::cout,std::string;
 
 int main()

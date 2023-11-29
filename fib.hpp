@@ -3,7 +3,7 @@ class fibonacci
     public:
     fibonacci(int x, int y);
     void userinput();
-    void clearscreen();
+    void clearscreen(); 
     ~fibonacci();
 
     private:

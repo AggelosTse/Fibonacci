@@ -37,14 +37,14 @@ void fibonacci::userinput()    //Gets user's input and checks if its valid.
         cout << "How many Fibonacci numbers do you want to print?\n";
         int input;
         cin >> input;
-        while(input < 0 || cin.fail())
+        while(input <= 0 || cin.fail())
            {
              cin.clear();       
              cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
              cout << "Invalid Input, try again." << "\n";
              cin >> input;
             }    
-            clearscreen();
+        clearscreen();
         if(input == 1) {cout << ar1 << ".\n";}                      //if 1 is pressed, it prints the first number of the sequence.
         else if(input == 2) {cout << ar1 << "," << ar2 << ".\n";}   //if 2 is pressed, it prints the first and the second number.
         else 
