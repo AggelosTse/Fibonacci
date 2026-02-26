@@ -1,3 +1,10 @@
+# Fibonacci Sequence in C++
+
+A simple C++ implementation of the Fibonacci sequence, split into modular files for better organization.
+
+
+## 🛠️ Installation & Setup
+
 1)Clone the repository with this command:
 
 'git clone https://github.com/AggelosTse/Fibonacci-.git'
